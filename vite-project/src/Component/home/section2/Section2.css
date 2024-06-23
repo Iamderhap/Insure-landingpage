@@ -1,0 +1,115 @@
+.sect2-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.sect2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 50px;
+}
+.sect2 img{
+    width: 15%;
+}
+.sect2-p{
+    font-size: 40px;
+    font-weight: 400;
+}
+.div1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div2{
+    width: 22.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sect3{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(256, 26%, 20%);
+    width: 80%;
+    height: 15vh;
+}
+.sect3-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect3 h2{
+    width: 60%;
+    color: white;
+}
+.btn3{
+    width: 24%;
+    height: 5vh;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+@media screen and (max-width:950px){
+    .sect2{
+        padding-top: 20px;
+    }
+    .sect2-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .div1{
+        width: 75%;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .div1 h3{
+        font-size: 25px;
+    }
+    .div2{
+        width: 75%;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .div2 h3{
+        font-size: 25px;
+    }
+    .div3{
+        width: 75%;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .div3 h3{
+        font-size: 25px;
+    }
+    .sect3{
+        height: 20vh;
+        width: 70%;
+    }
+    .sect3-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .sect3 h2{
+    width: 90%;
+    }
+    .btn3{
+        width: 40%;
+    }
+}
